@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+body {
+  background-color: #a2d2ff;
+  color: black;
+  font-family: 'Libre Baskerville', serif;
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+}
+
+#wrapper {
+  width: 80%;
+  margin: auto;
+  background-color: #bde0fe;
+  border: 1px solid #000033;
+}
+
+#root {
+  border: 1px ;
+}
+
+h1 {
+  padding-bottom: 0px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  font-family: 'Libre Baskerville', serif;
+}
+
+button {
+  font-family: 'Libre Baskerville', serif;
+}
